@@ -17,12 +17,12 @@
 </template>
 
 <style>
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
   .grow .shrink-0 {
     padding: 0px 100px;
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 799px) {
   .grow .shrink-0 {
     padding: inherit;
   }
