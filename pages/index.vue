@@ -1,5 +1,5 @@
 <template>
-  <div class="grow shrink-0">
+  <div class="grow shrink-0" style="padding: 0px 100px">
     <HomeTopHeader></HomeTopHeader>
     <!-- <HomeCaro></HomeCaro> -->
 
