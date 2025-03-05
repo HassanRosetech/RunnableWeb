@@ -1,5 +1,5 @@
 <template>
-  <div class="grow shrink-0">
+  <div id="mainbody" class="grow shrink-0">
     <HomeTopHeader></HomeTopHeader>
     <!-- <HomeCaro></HomeCaro> -->
 
@@ -18,12 +18,12 @@
 
 <style>
 @media screen and (min-width: 800px) {
-  .grow .shrink-0 {
+  #mainbody {
     padding: 0px 100px;
   }
 }
 @media screen and (max-width: 799px) {
-  .grow .shrink-0 {
+  #mainbody {
     padding: inherit;
   }
 }
