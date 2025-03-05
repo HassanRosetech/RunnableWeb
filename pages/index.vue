@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="grow shrink-0"
-    style="@media screen and (min-width: 992px) {padding: 0px 100px}"
-  >
+  <div class="grow shrink-0">
     <HomeTopHeader></HomeTopHeader>
     <!-- <HomeCaro></HomeCaro> -->
 
@@ -20,6 +17,11 @@
 </template>
 
 <style>
+@media screen and (min-width: 992px) {
+  .grow .shrink-0 {
+    padding: 0px 100px;
+  }
+}
 .swiper-container.nav-color .swiper-button.swiper-button-disabled,
 .swiper-container.nav-color
   .swiper-slide
