@@ -3,13 +3,13 @@
     <HomeTopHeader></HomeTopHeader>
     <!-- <HomeCaro></HomeCaro> -->
 
-    <HomeOne></HomeOne>
-    <HomeTwo></HomeTwo>
-    <HomeThree></HomeThree>
-    <HomeFour></HomeFour>
-    <HomeFive></HomeFive>
-    <HomeSix></HomeSix>
-    <HomeSeven></HomeSeven>
+    <HomeHero></HomeHero>
+    <HomeWhatToDo></HomeWhatToDo>
+    <HomeOurStrategy></HomeOurStrategy>
+    <HomeWhyChooseUs></HomeWhyChooseUs>
+    <HomeFacts></HomeFacts>
+    <HomeProjects></HomeProjects>
+    <HomeHappyCustomers></HomeHappyCustomers>
   </div>
   <HomeFooter></HomeFooter>
   <!-- <HomeProgress></HomeProgress> -->

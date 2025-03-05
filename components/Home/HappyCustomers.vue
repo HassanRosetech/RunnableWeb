@@ -210,7 +210,7 @@
       <!--/.row -->
     </div>
     <!-- /.container -->
-    <div class="overflow-hidden">
+    <div id="join" class="overflow-hidden">
       <div class="divider !text-[#343f52] mx-[-0.5rem]">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
           <path
@@ -223,3 +223,11 @@
     <!-- /.overflow-hidden -->
   </section>
 </template>
+
+<style>
+@media screen and (min-width: 800px) {
+  #join {
+    margin: 0px -100px;
+  }
+}
+</style>

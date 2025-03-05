@@ -23,8 +23,8 @@ export default defineNuxtConfig({
       script: [
         {
           src: "https://sandbox-tailwind-template.netlify.app/assets/js/plugins.js",
-        },
-        {src: "https://sandbox-tailwind-template.netlify.app/assets/js/theme.js"}
+        }
+       // {src: "https://sandbox-tailwind-template.netlify.app/assets/js/theme.js"}
         
         
       
