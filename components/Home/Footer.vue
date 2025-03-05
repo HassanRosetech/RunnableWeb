@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
+  <footer id="foot" class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
     <div
       class="container pt-14 xl:pt-6 lg:pt-6 pb-16 xl:pb-20 lg:pb-20 md:pb-20"
     >
@@ -220,3 +220,10 @@
     <!-- /.container -->
   </footer>
 </template>
+<style>
+@media screen and (min-width: 800px) {
+  #foot {
+    padding: 0px 100px;
+  }
+}
+</style>
