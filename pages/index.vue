@@ -22,6 +22,11 @@
     padding: 0px 100px;
   }
 }
+@media screen and (max-width: 991px) {
+  .grow .shrink-0 {
+    padding: inherit;
+  }
+}
 .swiper-container.nav-color .swiper-button.swiper-button-disabled,
 .swiper-container.nav-color
   .swiper-slide
