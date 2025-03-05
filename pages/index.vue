@@ -1,5 +1,8 @@
 <template>
-  <div class="grow shrink-0" style="padding: 0px 100px">
+  <div
+    class="grow shrink-0"
+    style="@media screen and (min-width: 992px) {padding: 0px 100px}"
+  >
     <HomeTopHeader></HomeTopHeader>
     <!-- <HomeCaro></HomeCaro> -->
 
