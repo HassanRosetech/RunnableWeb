@@ -1,233 +1,274 @@
 <template>
-  <section class="wrapper !bg-[#ffffff]">
-    <div class="container pt-6 pb-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24">
-      <div
-        class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px]"
-      >
+  <section class="wrapper bg-gradient-sky">
+    <div
+      class="container pt-14 xl:pt-8 lg:pt-8 pb-[4.5rem] xl:pb-28 lg:pb-28 md:pb-28"
+    >
+      <div class="flex flex-wrap mx-[-15px] !text-center">
         <div
-          class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mb-0 xl:!px-[35px] lg:!px-[20px] !mt-[50px]"
+          class="lg:w-8/12 xl:w-8/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!ml-[16.66666667%] lg:!ml-[16.66666667%]"
         >
           <h2
-            class="!text-[0.8rem] uppercase !text-[#5eb9f0] !leading-[1.35] !tracking-[0.02rem] !mb-4"
+            class="!text-[0.8rem] uppercase !text-[#5eb9f0] !mb-3 !leading-[1.35] !tracking-[0.02rem]"
           >
-            FAQ
+            Happy Customers
           </h2>
           <h3
-            class="xl:!text-[2.1rem] !text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] !mb-4"
+            class="xl:!text-[2.1rem] !text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] !mb-10 xxl:!px-10"
           >
-            If you don't see an answer to your question, you can send us an
-            email from our contact form.
+            Don't take our word for it. See what customers are saying about us.
           </h3>
-          <p class="!mb-6">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
-            eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis
-            ornare.
-          </p>
-          <a
-            href="#"
-            class="btn btn-sky !text-white !bg-[#5eb9f0] border-[#5eb9f0] hover:text-white hover:!bg-[#5eb9f0] hover:!border-[#5eb9f0] focus:shadow-[rgba(88,167,216,1)] active:text-white active:!bg-[#5eb9f0] active:border-[#5eb9f0] disabled:text-white disabled:!bg-[#5eb9f0] disabled:border-[#5eb9f0] !rounded-[50rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
-            >All FAQ</a
-          >
         </div>
-        <!--/column -->
-        <div
-          class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]"
-        >
-          <div id="accordion-3" class="accordion-wrapper">
-            <div
-              class="card accordion-item !mb-5 !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
-            >
-              <div
-                class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit"
-                id="accordion-heading-3-1"
-              >
-                <button
-                  class="hover:!text-[#5eb9f0] before:!text-[#5eb9f0] collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-collapse-3-1"
-                  aria-expanded="false"
-                  aria-controls="accordion-collapse-3-1"
-                >
-                  How do I get my subscription receipt?
-                </button>
-              </div>
-              <!-- /.card-header -->
-              <div
-                id="accordion-collapse-3-1"
-                class="collapse"
-                aria-labelledby="accordion-heading-3-1"
-                data-bs-target="#accordion-3"
-              >
-                <div
-                  class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]"
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+      <div class="itemgrid">
+        <div class="flex flex-wrap mx-[-15px] isotope !mt-[-30px]">
+          <div
+            class="item md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]"
+          >
+            <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+              <div class="card-body flex-[1_1_auto] p-[40px]">
+                <span
+                  class="ratings inline-block relative w-20 h-[0.8rem] text-[0.9rem] leading-none before:text-[rgba(38,43,50,0.1)] after:inline-block after:not-italic after:font-normal after:absolute after:!text-[#fcc032] after:content-['\2605\2605\2605\2605\2605'] after:overflow-hidden after:left-0 after:top-0 before:inline-block before:not-italic before:font-normal before:absolute before:!text-[#fcc032] before:content-['\2605\2605\2605\2605\2605'] before:overflow-hidden before:left-0 before:top-0 five !mb-2"
+                ></span>
+                <blockquote
+                  class="!text-[.9rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0"
                 >
                   <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Cras mattis consectetur purus sit amet fermentum. Praesent
-                    commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec sed odio dui. Cras
-                    justo odio, dapibus ac facilisis.
+                    “Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”
                   </p>
-                </div>
-                <!-- /.card-body -->
+                  <div class="flex items-center text-left">
+                    <img
+                      class="!rounded-[50%] !w-[3.5rem]"
+                      src="~/assets/img/avatars/te1.jpg"
+                      srcset="~/assets/img/avatars/te1@2x.jpg 2x"
+                      alt="image"
+                    />
+                    <div class="info !pl-4">
+                      <h5
+                        class="!mb-1 !text-[0.95rem] !leading-[1.5] !tracking-[-0.01rem]"
+                      >
+                        Coriss Ambady
+                      </h5>
+                      <p class="!mb-0 !text-[.85rem]">Financial Analyst</p>
+                    </div>
+                  </div>
+                </blockquote>
               </div>
-              <!-- /.collapse -->
-            </div>
-            <!-- /.card -->
-            <div
-              class="card accordion-item !mb-5 !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
-            >
-              <div
-                class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit"
-                id="accordion-heading-3-2"
-              >
-                <button
-                  class="hover:!text-[#5eb9f0] before:!text-[#5eb9f0] collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-collapse-3-2"
-                  aria-expanded="false"
-                  aria-controls="accordion-collapse-3-2"
-                >
-                  Are there any discounts for people in need?
-                </button>
-              </div>
-              <!-- /.card-header -->
-              <div
-                id="accordion-collapse-3-2"
-                class="collapse"
-                aria-labelledby="accordion-heading-3-2"
-                data-bs-target="#accordion-3"
-              >
-                <div
-                  class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]"
-                >
-                  <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Cras mattis consectetur purus sit amet fermentum. Praesent
-                    commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec sed odio dui. Cras
-                    justo odio, dapibus ac facilisis.
-                  </p>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.collapse -->
-            </div>
-            <!-- /.card -->
-            <div
-              class="card accordion-item !mb-5 !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
-            >
-              <div
-                class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit"
-                id="accordion-heading-3-3"
-              >
-                <button
-                  class="hover:!text-[#5eb9f0] before:!text-[#5eb9f0] collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-collapse-3-3"
-                  aria-expanded="false"
-                  aria-controls="accordion-collapse-3-3"
-                >
-                  Do you offer a free trial edit?
-                </button>
-              </div>
-              <!-- /.card-header -->
-              <div
-                id="accordion-collapse-3-3"
-                class="collapse"
-                aria-labelledby="accordion-heading-3-3"
-                data-bs-target="#accordion-3"
-              >
-                <div
-                  class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]"
-                >
-                  <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Cras mattis consectetur purus sit amet fermentum. Praesent
-                    commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec sed odio dui. Cras
-                    justo odio, dapibus ac facilisis.
-                  </p>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.collapse -->
-            </div>
-            <!-- /.card -->
-            <div
-              class="card accordion-item !mb-5 !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"
-            >
-              <div
-                class="card-header !mb-0 !p-[.9rem_1.3rem_.85rem] !border-0 !bg-inherit"
-                id="accordion-heading-3-4"
-              >
-                <button
-                  class="hover:!text-[#5eb9f0] before:!text-[#5eb9f0] collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#accordion-collapse-3-4"
-                  aria-expanded="false"
-                  aria-controls="accordion-collapse-3-4"
-                >
-                  How do I reset my Account password?
-                </button>
-              </div>
-              <!-- /.card-header -->
-              <div
-                id="accordion-collapse-3-4"
-                class="collapse"
-                aria-labelledby="accordion-heading-3-4"
-                data-bs-target="#accordion-3"
-              >
-                <div
-                  class="card-body flex-[1_1_auto] p-[0_1.25rem_.25rem_2.35rem]"
-                >
-                  <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Cras mattis consectetur purus sit amet fermentum. Praesent
-                    commodo cursus magna, vel scelerisque nisl consectetur et.
-                    Cum sociis natoque penatibus et magnis dis parturient
-                    montes, nascetur ridiculus mus. Donec sed odio dui. Cras
-                    justo odio, dapibus ac facilisis.
-                  </p>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.collapse -->
+              <!-- /.card-body -->
             </div>
             <!-- /.card -->
           </div>
-          <!-- /.accordion-wrapper -->
+          <!--/column -->
+          <div
+            class="item md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]"
+          >
+            <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+              <div class="card-body flex-[1_1_auto] p-[40px]">
+                <span
+                  class="ratings inline-block relative w-20 h-[0.8rem] text-[0.9rem] leading-none before:text-[rgba(38,43,50,0.1)] after:inline-block after:not-italic after:font-normal after:absolute after:!text-[#fcc032] after:content-['\2605\2605\2605\2605\2605'] after:overflow-hidden after:left-0 after:top-0 before:inline-block before:not-italic before:font-normal before:absolute before:!text-[#fcc032] before:content-['\2605\2605\2605\2605\2605'] before:overflow-hidden before:left-0 before:top-0 five !mb-2"
+                ></span>
+                <blockquote
+                  class="!text-[.9rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0"
+                >
+                  <p>
+                    “Fusce dapibus, tellus ac cursus tortor mauris condimentum
+                    fermentum massa justo sit amet. Vivamus sagittis lacus vel
+                    augue laoreet rutrum faucibus dolor auctor. Cras mattis
+                    consectetur purus sit amet fermentum. Aenean lacinia
+                    bibendum nulla sed.”
+                  </p>
+                  <div class="flex items-center text-left">
+                    <img
+                      class="!rounded-[50%] !w-[3.5rem]"
+                      src="~/assets/img/avatars/te2.jpg"
+                      srcset="~/assets/img/avatars/te2@2x.jpg 2x"
+                      alt="image"
+                    />
+                    <div class="info !pl-4">
+                      <h5
+                        class="!mb-1 !text-[0.95rem] !leading-[1.5] !tracking-[-0.01rem]"
+                      >
+                        Cory Zamora
+                      </h5>
+                      <p class="!mb-0 !text-[.85rem]">Marketing Specialist</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--/column -->
+          <div
+            class="item md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]"
+          >
+            <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+              <div class="card-body flex-[1_1_auto] p-[40px]">
+                <span
+                  class="ratings inline-block relative w-20 h-[0.8rem] text-[0.9rem] leading-none before:text-[rgba(38,43,50,0.1)] after:inline-block after:not-italic after:font-normal after:absolute after:!text-[#fcc032] after:content-['\2605\2605\2605\2605\2605'] after:overflow-hidden after:left-0 after:top-0 before:inline-block before:not-italic before:font-normal before:absolute before:!text-[#fcc032] before:content-['\2605\2605\2605\2605\2605'] before:overflow-hidden before:left-0 before:top-0 five !mb-2"
+                ></span>
+                <blockquote
+                  class="!text-[.9rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0"
+                >
+                  <p>
+                    “Curabitur blandit tempus porttitor. Vivamus sagittis lacus
+                    vel augue laoreet rutrum faucibus dolor auctor. Nullam quis
+                    risus eget porta ac consectetur vestibulum. Donec sed odio
+                    dui consectetur adipiscing elit.”
+                  </p>
+                  <div class="flex items-center text-left">
+                    <img
+                      class="!rounded-[50%] !w-[3.5rem]"
+                      src="~/assets/img/avatars/te3.jpg"
+                      srcset="~/assets/img/avatars/te3@2x.jpg 2x"
+                      alt="image"
+                    />
+                    <div class="info !pl-4">
+                      <h5
+                        class="!mb-1 !text-[0.95rem] !leading-[1.5] !tracking-[-0.01rem]"
+                      >
+                        Nikolas Brooten
+                      </h5>
+                      <p class="!mb-0 !text-[.85rem]">Sales Manager</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--/column -->
+          <div
+            class="item md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]"
+          >
+            <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+              <div class="card-body flex-[1_1_auto] p-[40px]">
+                <span
+                  class="ratings inline-block relative w-20 h-[0.8rem] text-[0.9rem] leading-none before:text-[rgba(38,43,50,0.1)] after:inline-block after:not-italic after:font-normal after:absolute after:!text-[#fcc032] after:content-['\2605\2605\2605\2605\2605'] after:overflow-hidden after:left-0 after:top-0 before:inline-block before:not-italic before:font-normal before:absolute before:!text-[#fcc032] before:content-['\2605\2605\2605\2605\2605'] before:overflow-hidden before:left-0 before:top-0 five !mb-2"
+                ></span>
+                <blockquote
+                  class="!text-[.9rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0"
+                >
+                  <p>
+                    “Etiam adipiscing tincidunt elit convallis felis suscipit
+                    ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis
+                    mauris. Donec non dolor ac elit aliquam tincidunt at at
+                    sapien. Aenean tortor libero condimentum ac laoreet vitae.”
+                  </p>
+                  <div class="flex items-center text-left">
+                    <img
+                      class="!rounded-[50%] !w-[3.5rem]"
+                      src="~/assets/img/avatars/te4.jpg"
+                      srcset="~/assets/img/avatars/te4@2x.jpg 2x"
+                      alt="image"
+                    />
+                    <div class="info !pl-4">
+                      <h5
+                        class="!mb-1 !text-[0.95rem] !leading-[1.5] !tracking-[-0.01rem]"
+                      >
+                        Coriss Ambady
+                      </h5>
+                      <p class="!mb-0 !text-[.85rem]">Financial Analyst</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--/column -->
+          <div
+            class="item md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]"
+          >
+            <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+              <div class="card-body flex-[1_1_auto] p-[40px]">
+                <span
+                  class="ratings inline-block relative w-20 h-[0.8rem] text-[0.9rem] leading-none before:text-[rgba(38,43,50,0.1)] after:inline-block after:not-italic after:font-normal after:absolute after:!text-[#fcc032] after:content-['\2605\2605\2605\2605\2605'] after:overflow-hidden after:left-0 after:top-0 before:inline-block before:not-italic before:font-normal before:absolute before:!text-[#fcc032] before:content-['\2605\2605\2605\2605\2605'] before:overflow-hidden before:left-0 before:top-0 five !mb-2"
+                ></span>
+                <blockquote
+                  class="!text-[.9rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0"
+                >
+                  <p>
+                    “Maecenas sed diam eget risus varius blandit sit amet non
+                    magna. Cum sociis natoque penatibus magnis dis montes,
+                    nascetur ridiculus mus. Donec sed odio dui. Nulla vitae elit
+                    libero.”
+                  </p>
+                  <div class="flex items-center text-left">
+                    <img
+                      class="!rounded-[50%] !w-[3.5rem]"
+                      src="~/assets/img/avatars/te5.jpg"
+                      srcset="~/assets/img/avatars/te5@2x.jpg 2x"
+                      alt="image"
+                    />
+                    <div class="info !pl-4">
+                      <h5
+                        class="!mb-1 !text-[0.95rem] !leading-[1.5] !tracking-[-0.01rem]"
+                      >
+                        Jackie Sanders
+                      </h5>
+                      <p class="!mb-0 !text-[.85rem]">Investment Planner</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--/column -->
+          <div
+            class="item md:w-6/12 lg:w-6/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]"
+          >
+            <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+              <div class="card-body flex-[1_1_auto] p-[40px]">
+                <span
+                  class="ratings inline-block relative w-20 h-[0.8rem] text-[0.9rem] leading-none before:text-[rgba(38,43,50,0.1)] after:inline-block after:not-italic after:font-normal after:absolute after:!text-[#fcc032] after:content-['\2605\2605\2605\2605\2605'] after:overflow-hidden after:left-0 after:top-0 before:inline-block before:not-italic before:font-normal before:absolute before:!text-[#fcc032] before:content-['\2605\2605\2605\2605\2605'] before:overflow-hidden before:left-0 before:top-0 five !mb-2"
+                ></span>
+                <blockquote
+                  class="!text-[.9rem] !leading-[1.7] font-medium !pl-4 icon !mb-0 relative p-0 border-0"
+                >
+                  <p>
+                    “Donec id elit non mi porta gravida at eget metus. Nulla
+                    vitae elit libero, a pharetra augue. Cum sociis natoque
+                    penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus.”
+                  </p>
+                  <div class="flex items-center text-left">
+                    <img
+                      class="!rounded-[50%] !w-[3.5rem]"
+                      src="~/assets/img/avatars/te6.jpg"
+                      srcset="~/assets/img/avatars/te6@2x.jpg 2x"
+                      alt="image"
+                    />
+                    <div class="info !pl-4">
+                      <h5
+                        class="!mb-1 !text-[0.95rem] !leading-[1.5] !tracking-[-0.01rem]"
+                      >
+                        Laura Widerski
+                      </h5>
+                      <p class="!mb-0 !text-[.85rem]">Sales Specialist</p>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!--/column -->
         </div>
-        <!--/column -->
+        <!-- /.row -->
       </div>
-      <!--/.row -->
+      <!-- /.grid-view -->
     </div>
     <!-- /.container -->
-    <div id="join" class="overflow-hidden">
-      <div class="divider !text-[#343f52] mx-[-0.5rem]">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
-          <path
-            fill="currentColor"
-            d="M1260,1.65c-60-5.07-119.82,2.47-179.83,10.13s-120,11.48-180,9.57-120-7.66-180-6.42c-60,1.63-120,11.21-180,16a1129.52,1129.52,0,0,1-180,0c-60-4.78-120-14.36-180-19.14S60,7,30,7H0v93H1440V30.89C1380.07,23.2,1319.93,6.15,1260,1.65Z"
-          />
-        </svg>
-      </div>
-    </div>
-    <!-- /.overflow-hidden -->
   </section>
 </template>
-
-<style>
-@media screen and (min-width: 800px) {
-  #join {
-    margin: 0px -100px;
-  }
-}
-</style>

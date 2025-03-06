@@ -4,12 +4,15 @@
     <!-- <HomeCaro></HomeCaro> -->
 
     <HomeHero></HomeHero>
+    <HomeClients></HomeClients>
     <HomeWhatToDo></HomeWhatToDo>
     <HomeOurStrategy></HomeOurStrategy>
     <HomeWhyChooseUs></HomeWhyChooseUs>
     <HomeFacts></HomeFacts>
-    <HomeProjects></HomeProjects>
+    <HomeTeam></HomeTeam>
+    <HomeLatestProjects></HomeLatestProjects>
     <HomeHappyCustomers></HomeHappyCustomers>
+    <HomeFaq></HomeFaq>
   </div>
   <HomeFooter></HomeFooter>
   <!-- <HomeProgress></HomeProgress> -->
