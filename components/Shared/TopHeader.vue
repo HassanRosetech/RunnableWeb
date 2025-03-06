@@ -1778,3 +1778,10 @@
     <!-- /.navbar -->
   </header>
 </template>
+<style>
+@media screen and (min-width: 800px) {
+  .navbar .container {
+    padding: 0px 100px;
+  }
+}
+</style>
