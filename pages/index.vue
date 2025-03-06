@@ -1,8 +1,5 @@
 <template>
   <div id="mainbody" class="grow shrink-0">
-    <HomeTopHeader></HomeTopHeader>
-    <!-- <HomeCaro></HomeCaro> -->
-
     <HomeHero></HomeHero>
     <HomeClients></HomeClients>
     <HomeWhatToDo></HomeWhatToDo>
@@ -14,9 +11,6 @@
     <HomeHappyCustomers></HomeHappyCustomers>
     <HomeFaq></HomeFaq>
   </div>
-  <HomeFooter></HomeFooter>
-  <!-- <HomeProgress></HomeProgress> -->
-  <HomeBackToTop></HomeBackToTop>
 </template>
 
 <style>
