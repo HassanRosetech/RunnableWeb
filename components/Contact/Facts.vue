@@ -34,7 +34,7 @@
               <h3
                 class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem] !text-[#3f78e0]"
               >
-                7518
+                <HomeCounter :targetValue="7518" />
               </h3>
               <p class="text-[0.8rem] font-medium !mb-0">Completed Projects</p>
             </div>
@@ -45,7 +45,7 @@
               <h3
                 class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem] !text-[#3f78e0]"
               >
-                5472
+                <HomeCounter :targetValue="5472" />
               </h3>
               <p class="text-[0.8rem] font-medium !mb-0">Satisfied Customers</p>
             </div>
@@ -56,7 +56,7 @@
               <h3
                 class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem] !text-[#3f78e0]"
               >
-                2184
+                <HomeCounter :targetValue="2184" />
               </h3>
               <p class="text-[0.8rem] font-medium !mb-0">Expert Employees</p>
             </div>
