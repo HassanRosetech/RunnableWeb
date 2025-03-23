@@ -34,5 +34,8 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [ "@nuxt/ui","@nuxtjs/tailwindcss"]
+  modules: [ "@nuxt/ui","@nuxtjs/tailwindcss"],
+  runtimeConfig: {
+    databaseUrl: process.env.NUXT_DATABASE_URL,
+  },
 })
