@@ -56,7 +56,9 @@
               <h3
                 class="counter counter-lg !text-[calc(1.345rem_+_1.14vw)] !tracking-[normal] !leading-none !mb-2 xl:!text-[2.2rem] !text-[#3f78e0]"
               >
-                <HomeCounter :targetValue="2184" />
+                <div>
+                  <HomeCounter :targetValue="2184" />
+                </div>
               </h3>
               <p class="text-[0.8rem] font-medium !mb-0">Expert Employees</p>
             </div>
@@ -74,5 +76,8 @@
 <style>
 #facts {
   background-image: url("~/assets/img/map.png");
+}
+h2 {
+  color: #3f78e0;
 }
 </style>
