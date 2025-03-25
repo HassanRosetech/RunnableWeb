@@ -39,12 +39,18 @@
 <script setup>
 const contacts = ref(null);
 
-contacts.value = await getContact();
-console.log(contacts.value);
-// Get contacts
-async function getContact() {
-  return await $fetch("/api/contact/get/all");
-}
+// contacts.value = await getContact();
+// console.log(contacts.value);
+// // Get contacts
+// async function getContact() {
+//   return await $fetch("/api/contact/get/all");
+// }
+
+//const contacts = ref < any > {};
+contacts.value = await $fetch("/api/contact/get/all");
+// async function getContact() {
+//   return await $fetch("/api/listContacts");
+// }
 
 async function deleteContact(id) {
   const route = useRoute();
@@ -59,7 +65,7 @@ async function deleteContact(id) {
 
       // Redirect to the dashboard after deletion
       //  route.push("/dashboard");
-
+      await $fetch("/api/contact/get/all");
       // Reload the page after deletion
       window.location.reload();
     } catch (error) {
