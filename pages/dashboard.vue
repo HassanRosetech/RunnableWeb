@@ -46,15 +46,26 @@ async function getContact() {
   return await $fetch("/api/contact/get/all");
 }
 
-// Delete contacts
 async function deleteContact(id) {
-  // alert(id);
+  const route = useRoute();
+
   if (confirm("Are you sure?")) {
-    let contact = null;
-    if (id) contact = await $fetch(`/api/contact/delete/${id}`);
-    contacts.value = await getContact();
-    // window.location.reload();
-    this.$router.push({ path: "/dashboard" }).catch(() => {});
+    try {
+      // Make sure the API call for deleting the contact is successful
+      await $fetch(`/api/contact/delete/${id}`, {
+        method: "POST",
+        body: { id: id },
+      });
+
+      // Redirect to the dashboard after deletion
+      //  route.push("/dashboard");
+
+      // Reload the page after deletion
+      window.location.reload();
+    } catch (error) {
+      console.error("Error deleting contact:", error);
+      // Handle error case if needed
+    }
   }
 }
 
