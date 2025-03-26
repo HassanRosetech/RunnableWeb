@@ -1,4 +1,5 @@
 <template>
+  <Navbar></Navbar>
   <v-row class="month-table">
     <v-col cols="12" sm="12">
       <table>
@@ -76,6 +77,7 @@ async function deleteContact(id) {
 }
 
 definePageMeta({
+  middleware: "auth",
   layout: "dd",
 });
 </script>
