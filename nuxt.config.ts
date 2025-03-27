@@ -37,6 +37,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "@nuxtjs/tailwindcss","@nuxtjs/hanko"],
   hanko: {
     apiURL: process.env.NUXT_PUBLIC_HANKO_API_URL,
+    registerComponents: true
   },
   
   build: {
