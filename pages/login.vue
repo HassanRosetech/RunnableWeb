@@ -1,3 +1,0 @@
-<template>
-  <Login></Login>
-</template>

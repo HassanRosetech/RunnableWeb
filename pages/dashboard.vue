@@ -77,7 +77,6 @@ async function deleteContact(id) {
 }
 
 definePageMeta({
-  middleware: "auth",
   layout: "dd",
 });
 </script>

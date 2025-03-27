@@ -34,23 +34,20 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/ui", "@nuxtjs/tailwindcss", "@sidebase/nuxt-auth"],
+  modules: ["@nuxt/ui", "@nuxtjs/tailwindcss"],
   auth: {
     // enableGlobalAppMiddleware: true,
   },
   
  
   runtimeConfig: {
-    databaseUrl: process.env.NUXT_DATABASE_URL,
-    GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
-    public: {
-      GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
-    },
+    databaseUrl: process.env.NUXT_DATABASE_URL
+    // GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
+    // public: {
+    //   GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
+    // },
     
     
-  },
-  nitro: {
-    preset: 'cloudflare',
   }
   
 })
