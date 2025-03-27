@@ -7,6 +7,6 @@ function afterLogin() {
 }
 </script>
 <template>
-  <hanko-login />
+  <hanko-auth />
   <hanko-events @onSessionCreated="afterLogin()" />
 </template>
