@@ -34,12 +34,14 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/ui", "@nuxtjs/tailwindcss"],
-  auth: {
-    // enableGlobalAppMiddleware: true,
+  modules: ["@nuxt/ui", "@nuxtjs/tailwindcss","@nuxtjs/hanko","@nuxtjs/color-mode"],
+  hanko: {
+    apiURL: process.env.NUXT_PUBLIC_HANKO_API_URL,
   },
   
- 
+  build: {
+    transpile: ["vuetify"],
+  },
   runtimeConfig: {
     databaseUrl: process.env.NUXT_DATABASE_URL
     // GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,

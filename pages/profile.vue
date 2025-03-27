@@ -1,0 +1,3 @@
+<template>
+  <hanko-profile />
+</template>
