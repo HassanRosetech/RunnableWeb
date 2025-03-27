@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import UiChildCard from "~/components/shared/UiChildCard.vue";
+//import UiChildCard from "~/components/shared/UiChildCard.vue";
 
 const contacts = ref<any>({});
 contacts.value = await $fetch("/api/contact/get/all");
