@@ -4,7 +4,12 @@
       class="wrapper !bg-[#ffffff] relative border-0 upper-end before:top-[-4rem] before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-[#fefefe] before:content-[''] before:block before:absolute before:z-0 before:border-y-transparent before:border-0 before:border-solid before:right-0"
     >
       <div class="container-fluid pb-12">
-        <ContactGetInTouch></ContactGetInTouch>
+        <!-- <ContactGetInTouch></ContactGetInTouch> -->
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <ContactDropUSaLineNew></ContactDropUSaLineNew>
         <!-- /.row -->
       </div>
