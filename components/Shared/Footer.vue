@@ -212,7 +212,7 @@ export default {
 .customize-dropdown {
   background-color: #3a4557;
   color: #c2c6cc !important;
-  font-size: medium;
+  font-size: medium !important;
 }
 
 @media screen and (min-width: 800px) {
