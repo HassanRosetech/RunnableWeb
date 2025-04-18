@@ -57,6 +57,11 @@
               >
               <NuxtLink
                 class="nav-link font-bold !tracking-[-0.01rem] hover:!text-[#54a8c7] after:!text-[#54a8c7]"
+                to="#strategy"
+                >Our Strategy</NuxtLink
+              >
+              <NuxtLink
+                class="nav-link font-bold !tracking-[-0.01rem] hover:!text-[#54a8c7] after:!text-[#54a8c7]"
                 to="#team"
                 >Our Team</NuxtLink
               >
