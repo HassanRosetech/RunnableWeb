@@ -68,7 +68,9 @@
         <!-- Column 3: Contact Form -->
         <div class="md:w-4/12 w-50 !px-[15px] !mt-[30px]">
           <div class="widget">
-            <h4 class="widget-title !text-white !mb-3">Contact Us</h4>
+            <h4 class="widget-title !text-white !mb-3">Let’s Work Together</h4>
+            <p class="!mb-4">Have a project in mind or need expert guidance?</p>
+            <h5 class="widget-title !text-white !mb-3">Contact Us</h5>
             <form
               @submit.prevent="submitForm"
               class="contact-form needs-validation grid grid-cols-1 md:grid-cols-2 gap-4"
@@ -213,6 +215,7 @@ export default {
   background-color: #3a4557;
   color: #c2c6cc !important;
   font-size: medium !important;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 800px) {
