@@ -66,7 +66,7 @@
         </div>
 
         <!-- Column 3: Contact Form -->
-        <div class="md:w-4/12 w-full !px-[15px] !mt-[30px]">
+        <div class="md:w-4/12 w-50 !px-[15px] !mt-[30px]">
           <div class="widget">
             <h4 class="widget-title !text-white !mb-3">Contact Us</h4>
             <form
@@ -78,25 +78,25 @@
                 v-model="form.name"
                 type="text"
                 placeholder="First Name"
-                class="form-control !mb-3 col-span-1"
+                class="form-control customize-input !mb-3 col-span-1"
                 required
               />
 
               <!-- Right column -->
               <input
-                v-model="form.email"
-                type="email"
-                placeholder="Email"
-                class="form-control !mb-3 col-span-1"
+                v-model="form.surname"
+                type="text"
+                placeholder="Last Name"
+                class="form-control customize-input !mb-3 col-span-1"
                 required
               />
 
               <!-- Full-width row -->
               <input
-                v-model="form.surname"
-                type="text"
-                placeholder="Last Name"
-                class="form-control !mb-3 col-span-2"
+                v-model="form.email"
+                type="email"
+                placeholder="Email"
+                class="form-control customize-input !mb-3 col-span-2"
                 required
               />
 
@@ -189,6 +189,14 @@ export default {
 };
 </script>
 <style>
+.customize-input {
+  background-color: #3a4557;
+  color: #c2c6cc !important;
+  height: 35px;
+  border-radius: 5px;
+
+  text-indent: 10px;
+}
 .customize-btn {
   position: relative;
   margin-top: 0.5rem;
@@ -197,6 +205,9 @@ export default {
 .customize-text-area {
   background-color: #3a4557;
   color: #c2c6cc !important;
+  border-radius: 5px;
+
+  text-indent: 10px;
 }
 .customize-dropdown {
   background-color: #3a4557;
