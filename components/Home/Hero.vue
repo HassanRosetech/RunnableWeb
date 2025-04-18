@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper !bg-[#ffffff]">
+  <section id="about" class="wrapper !bg-[#ffffff]">
     <div
       class="container pt-10 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] pb-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24 !text-center"
     >
@@ -25,8 +25,9 @@
           <h1
             class="xl:!text-[2.7rem] !text-[calc(1.395rem_+_1.74vw)] !leading-[1.15] !mb-5 md:mx-[-1.25rem] lg:mx-0 !mt-7"
           >
-            A digital agency
-            <br class="xl:!hidden lg:!hidden md:!hidden" />specializing on
+            Who We Are
+            <br />
+            <br class="xl:!hidden lg:!hidden md:!hidden" />Specialized in
             <br />
             <br class="xl:!hidden lg:!hidden md:!hidden" /><span
               class="rotator-fade !text-[#5eb9f0]"
@@ -35,8 +36,16 @@
             </span>
           </h1>
           <p class="lead !text-[1.1rem] !leading-[1.55] font-medium !mb-7">
-            We are an award winning design agency that strongly believes in the
-            power of creative ideas.
+            <!-- We are an award winning design agency that strongly believes in the
+            power of creative ideas. -->
+
+            RunnableWeb is a digital software agency specializing in
+            cross-platform mobile and web development. We combine proven
+            technologies with modern development workflows to deliver scalable,
+            high-quality solutions—fast. <br />
+            We don't just build apps. We<strong> partner with you </strong> to
+            design and deliver impactful software products that evolve with your
+            business.
           </p>
           <span
             ><a
@@ -61,9 +70,9 @@
 export default {
   data() {
     return {
-      texts: ["mobile design", "web design", "graphic design"],
+      texts: ["Cross-Platform", "Cloud-Connected", "AI-Accelerated"],
       currentIndex: 0,
-      currentText: "web design",
+      currentText: "Cross-Platform",
     };
   },
   mounted() {

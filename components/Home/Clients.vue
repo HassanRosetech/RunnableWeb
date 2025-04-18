@@ -1,5 +1,5 @@
 <template>
-  <p class="text-center !mb-8">Trusted by over 2K+ clients across the world</p>
+  <!-- <p class="text-center !mb-8">Trusted by over 2K+ clients across the world</p> -->
   <div
     class="flex flex-wrap mx-[-15px] row-cols-4 row-cols-md-4 row-cols-lg-7 row-cols-xl-7 !mt-[-50px] !mb-2 items-center justify-center"
   >

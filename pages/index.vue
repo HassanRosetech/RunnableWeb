@@ -4,24 +4,55 @@
     <HomeClients></HomeClients>
     <HomeWhatToDo></HomeWhatToDo>
     <HomeOurStrategy></HomeOurStrategy>
-    <HomeWhyChooseUs></HomeWhyChooseUs>
-    <HomeFacts></HomeFacts>
+    <!-- <HomeWhyChooseUs></HomeWhyChooseUs> -->
+    <!-- <HomeFacts></HomeFacts> -->
+
     <HomeTeam></HomeTeam>
+
     <HomeLatestProjects></HomeLatestProjects>
-    <HomeHappyCustomers></HomeHappyCustomers>
-    <HomeFaq></HomeFaq>
+    <!-- <HomeHappyCustomers></HomeHappyCustomers> -->
+    <!-- <HomeFaq></HomeFaq> -->
   </div>
 </template>
 
 <style>
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  padding: 0px 100px;
+}
+
+#about,
+#team,
+#projects,
+#services,
+#contact {
+  padding-top: 80px; /* Adjust according to your header height */
+}
+
+/* Optionally, add some space below each section to make it more visually appealing */
+#about,
+#team,
+#projects,
+#services,
+#contact {
+  margin-bottom: 40px;
+}
+
 @media screen and (min-width: 800px) {
   #mainbody {
-    padding: 0px 100px;
+    /* padding: 0px 100px; */
   }
 }
 @media screen and (max-width: 799px) {
   #mainbody {
     padding: inherit;
+  }
+  body {
+    padding: 0px 0px;
   }
 }
 .swiper-container.nav-color .swiper-button.swiper-button-disabled,

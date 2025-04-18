@@ -1,5 +1,5 @@
 <template>
-  <div id="join" class="overflow-hidden">
+  <!-- <div id="join" class="overflow-hidden">
     <div class="divider !text-[#343f52] mx-[-0.5rem]">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
         <path
@@ -8,12 +8,12 @@
         />
       </svg>
     </div>
-  </div>
-  <footer id="foot" class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
+  </div> -->
+  <footer id="contact" class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
     <div
       class="container pt-14 xl:pt-6 lg:pt-6 pb-16 xl:pb-20 lg:pb-20 md:pb-20"
     >
-      <div class="xl:!flex lg:!flex flex-row xl:!items-center lg:!items-center">
+      <!-- <div class="xl:!flex lg:!flex flex-row xl:!items-center lg:!items-center">
         <h3
           class="xl:!text-[2.1rem] !text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] !mb-6 lg:!mb-0 xl:!mb-0 xl:!pr-40 lg:!pr-40 xxl:!pr-[22.5rem] !text-white"
         >
@@ -24,7 +24,7 @@
           class="btn btn-sky !text-white !bg-[#5eb9f0] border-[#5eb9f0] hover:text-white hover:!bg-[#5eb9f0] hover:!border-[#5eb9f0] focus:shadow-[rgba(88,167,216,1)] active:text-white active:!bg-[#5eb9f0] active:border-[#5eb9f0] disabled:text-white disabled:!bg-[#5eb9f0] disabled:border-[#5eb9f0] !rounded-[50rem] !mb-0 whitespace-nowrap"
           >Try It For Free</a
         >
-      </div>
+      </div> -->
       <!--/div -->
       <hr
         class="!mt-[3rem] !mb-[3.5rem] opacity-100 m-[4.5rem_0] border-t border-solid border-[rgba(164,174,198,.2)]"
@@ -111,32 +111,58 @@
           class="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]"
         >
           <div class="widget !text-[#cacaca]">
-            <h4 class="widget-title !text-white !mb-3">Learn More</h4>
+            <h4 class="widget-title !text-white !mb-3">Contact us</h4>
             <ul class="pl-0 list-none !mb-0">
               <li>
-                <a class="!text-[#cacaca] hover:!text-[#5eb9f0]" href="#"
-                  >About Us</a
-                >
+                <!-- <div
+                  class="!text-left input-group form-floating !relative flex flex-wrap items-stretch w-full"
+                > -->
+                <input
+                  type="text"
+                  value=""
+                  name="First Name"
+                  class="required form-control block w-full text-[12px] font-medium !leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:!mt-[-0.6rem] file:mr-[-1rem] file:!mb-[-0.6rem] file:ml-[-1rem] file:!text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:!text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] !text-[#cacaca] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(63,120,224,0.5)]"
+                  placeholder="First Name"
+                  id="f_name"
+                />
+                <!-- </div> -->
               </li>
               <li class="!mt-[0.35rem]">
-                <a class="!text-[#cacaca] hover:!text-[#5eb9f0]" href="#"
-                  >Our Story</a
-                >
+                <input
+                  type="text"
+                  value=""
+                  name="Last Name"
+                  class="required form-control block w-full text-[12px] font-medium !leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:!mt-[-0.6rem] file:mr-[-1rem] file:!mb-[-0.6rem] file:ml-[-1rem] file:!text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:!text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] !text-[#cacaca] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(63,120,224,0.5)]"
+                  placeholder="Last Name"
+                  id="l_name"
+                />
               </li>
               <li class="!mt-[0.35rem]">
-                <a class="!text-[#cacaca] hover:!text-[#5eb9f0]" href="#"
-                  >Projects</a
-                >
+                <input
+                  type="text"
+                  value=""
+                  name="Email"
+                  class="required email form-control block w-full text-[12px] font-medium !leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:!mt-[-0.6rem] file:mr-[-1rem] file:!mb-[-0.6rem] file:ml-[-1rem] file:!text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:!text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] !text-[#cacaca] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(63,120,224,0.5)]"
+                  placeholder="Email"
+                  id="email"
+                />
               </li>
               <li class="!mt-[0.35rem]">
-                <a class="!text-[#cacaca] hover:!text-[#5eb9f0]" href="#"
-                  >Terms of Use</a
-                >
-              </li>
-              <li class="!mt-[0.35rem]">
-                <a class="!text-[#cacaca] hover:!text-[#5eb9f0]" href="#"
-                  >Privacy Policy</a
-                >
+                <div class="form-select-wrapper !mb-4">
+                  <select
+                    class="required form-select customize-dropdown form-control block w-full text-[12px] font-medium !leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:!mt-[-0.6rem] file:mr-[-1rem] file:!mb-[-0.6rem] file:ml-[-1rem] file:!text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:!text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] !text-[#cacaca] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(63,120,224,0.5)]"
+                    id="form-select"
+                    name="department"
+                    required
+                  >
+                    <option selected disabled value="">
+                      Select a department
+                    </option>
+                    <option value="Sales">Sales</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Customer Support">Customer Support</option>
+                  </select>
+                </div>
               </li>
             </ul>
           </div>
@@ -147,96 +173,64 @@
           class="md:w-full xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]"
         >
           <div class="widget !text-[#cacaca]">
-            <h4 class="widget-title !text-white !mb-3">Our Newsletter</h4>
-            <p class="!mb-5">
+            <h4 class="widget-title !text-white !mb-3">&nbsp;</h4>
+            <!-- <p class="!mb-5">
               Subscribe to our newsletter to get our news & deals delivered to
               you.
-            </p>
+            </p>-->
             <div class="newsletter-wrapper">
-              <!-- Begin Mailchimp Signup Form -->
-              <div id="mc_embed_signup2">
-                <form
-                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                  method="post"
-                  id="mc-embedded-subscribe-form2"
-                  name="mc-embedded-subscribe-form"
-                  class="validate dark-fields"
-                  target="_blank"
-                  novalidate
-                >
-                  <div id="mc_embed_signup_scroll2">
-                    <div
-                      class="!text-left input-group form-floating !relative flex flex-wrap items-stretch w-full"
-                    >
-                      <input
-                        type="email"
-                        value=""
-                        name="EMAIL"
-                        class="required email form-control block w-full text-[12px] font-medium !leading-[1.7] appearance-none bg-clip-padding shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] px-4 py-[0.6rem] rounded-[0.4rem] motion-reduce:transition-none focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] disabled:bg-[#aab0bc] disabled:opacity-100 file:!mt-[-0.6rem] file:mr-[-1rem] file:!mb-[-0.6rem] file:ml-[-1rem] file:!text-[#60697b] file:bg-[#fefefe] file:pointer-events-none file:transition-all file:duration-[0.2s] file:ease-in-out file:px-4 file:py-[0.6rem] file:rounded-none motion-reduce:file:transition-none placeholder:!text-[#959ca9] placeholder:opacity-100 border border-solid !border-[rgba(255,255,255,0.1)] !text-[#cacaca] bg-[rgba(255,255,255,.03)] focus-visible:!border-[rgba(63,120,224,0.5)]"
-                        placeholder=""
-                        id="mce-EMAIL2"
-                      />
-                      <label
-                        class="!ml-[0.05rem] !text-[#959ca9] text-[.75rem] absolute z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none origin-[0_0] px-4 py-[0.6rem] left-0 top-0"
-                        for="mce-EMAIL2"
-                        >Email Address</label
-                      >
-                      <input
-                        type="submit"
-                        value="Join"
-                        name="subscribe"
-                        id="mc-embedded-subscribe2"
-                        class="btn btn-sky !text-white !bg-[#5eb9f0] border-[#5eb9f0] hover:text-white hover:!bg-[#5eb9f0] hover:!border-[#5eb9f0] focus:shadow-[rgba(88,167,216,1)] active:text-white active:!bg-[#5eb9f0] active:border-[#5eb9f0] disabled:text-white disabled:!bg-[#5eb9f0] disabled:border-[#5eb9f0] !relative z-[2] focus:z-[5] hover:!transform-none hover:!translate-none border-0"
-                      />
-                    </div>
-                    <div id="mce-responses2" class="clear">
-                      <div
-                        class="response"
-                        id="mce-error-response2"
-                        style="display: none"
-                      ></div>
-                      <div
-                        class="response"
-                        id="mce-success-response2"
-                        style="display: none"
-                      ></div>
-                    </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div
-                      style="position: absolute; left: -5000px"
-                      aria-hidden="true"
-                    >
-                      <input
-                        type="text"
-                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc"
-                        tabindex="-1"
-                        value=""
-                      />
-                    </div>
-                    <div class="clear"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
+              <textarea
+                id="form_message"
+                name="message"
+                class="form-control customize-text-area relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
+                placeholder=""
+                style="height: 150px"
+                required
+              ></textarea>
+              <label
+                for="form_message"
+                class="!text-[#959ca9] !mb-2 !inline-block text-[.75rem] !absolute !z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 font-Manrope"
+                >Message *</label
+              >
             </div>
-            <!-- /.newsletter-wrapper -->
+
+            <input
+              type="submit"
+              class="btn btn-primary customize-btn !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] btn-send !mb-3 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
+              value="Send message"
+            />
           </div>
-          <!-- /.widget -->
         </div>
-        <!-- /column -->
       </div>
-      <!--/.row -->
     </div>
     <!-- /.container -->
   </footer>
 </template>
 <style>
+.customize-btn {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+.customize-text-area {
+  background-color: #3a4557;
+  color: #c2c6cc !important;
+}
+.customize-dropdown {
+  background-color: #3a4557;
+  color: #c2c6cc !important;
+}
+#contact {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
 @media screen and (min-width: 800px) {
-  #foot {
+  /* #foot {
     padding: 0px 100px;
-  }
-  #join {
+  } */
+  /* #join {
     margin: 0px -100px;
-  }
+  } */
 }
 </style>

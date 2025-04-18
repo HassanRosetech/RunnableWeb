@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden">
+  <div id="projects" class="overflow-hidden">
     <div
       class="container pt-14 xl:pt-7 lg:pt-7 pb-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24"
     >

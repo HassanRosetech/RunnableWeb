@@ -1,5 +1,5 @@
 <template>
-  <section class="wrapper bg-gradient-sky">
+  <section id="services" class="wrapper bg-gradient-sky">
     <div
       class="container pt-14 xl:pt-8 lg:pt-8 pb-[4.5rem] xl:pb-28 lg:pb-28 md:pb-28"
     >

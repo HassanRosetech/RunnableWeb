@@ -1,5 +1,8 @@
 <template>
-  <div class="flex flex-wrap mx-[-15px] grid-view !mt-[-30px] xl:!mt-0">
+  <div
+    id="team"
+    class="flex flex-wrap mx-[-15px] grid-view !mt-[-30px] xl:!mt-0"
+  >
     <div
       class="md:w-6/12 lg:w-6/12 xl:w-3/12 w-full flex-[0_0_auto] !px-[15px] !mt-[30px] xl:!mt-0 max-w-full"
     >
