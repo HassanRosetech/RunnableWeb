@@ -1,6 +1,9 @@
 <template>
-  <footer id="contact" class="bg-[rgba(52,63,82)] opacity-100 !text-[#cacaca]">
-    <div class="container pt-14 xl:pt-6 pb-16 xl:pb-20">
+  <footer
+    id="contact"
+    class="bg-[rgba(52,63,82)] text-[#cacaca] py-12 px-4 sm:px-8 lg:px-16"
+  >
+    <div class="container-fluid pt-14 xl:pt-6 pb-16 xl:pb-20">
       <hr
         class="!mt-[3rem] !mb-[3.5rem] border-t border-[rgba(164,174,198,.2)]"
       />
@@ -73,14 +76,14 @@
             <h5 class="widget-title !text-white !mb-3">Contact Us</h5>
             <form
               @submit.prevent="submitForm"
-              class="contact-form needs-validation grid grid-cols-1 md:grid-cols-2 gap-4"
+              class="contact-form needs-validation grid grid-cols-1 md:grid-cols-2 gap-4 px-2 sm:px-4"
             >
               <!-- Left column -->
               <input
                 v-model="form.name"
                 type="text"
                 placeholder="First Name"
-                class="form-control customize-input !mb-3 col-span-1"
+                class="form-control customize-input !mb-3 col-span-2"
                 required
               />
 
@@ -89,7 +92,7 @@
                 v-model="form.surname"
                 type="text"
                 placeholder="Last Name"
-                class="form-control customize-input !mb-3 col-span-1"
+                class="form-control customize-input !mb-3 col-span-2"
                 required
               />
 
@@ -124,7 +127,7 @@
               <input
                 type="submit"
                 value="Send message"
-                class="btn btn-primary customize-btn !text-white !bg-[#3f78e0] col-span-2"
+                class="btn btn-primary customize-btn !text-white !bg-[#3f78e0] col-span-2 block mx-auto"
               />
             </form>
           </div>
@@ -201,8 +204,8 @@ export default {
 }
 .customize-btn {
   position: relative;
-  margin-top: 0.5rem;
-  margin-left: 3rem;
+  /* margin-top: 0.5rem; */
+  /* margin-left: 3rem; */
 }
 .customize-text-area {
   background-color: #3a4557;
@@ -235,6 +238,5 @@ export default {
   position: absolute;
   left: 0px;
   right: 0px;
-  padding: 0px 100px;
 }
 </style>
