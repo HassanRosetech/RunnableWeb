@@ -102,7 +102,7 @@
 
               <select
                 v-model="form.department"
-                class="form-select !mb-3 col-span-2"
+                class="form-select customize-dropdown !mb-3 col-span-2"
                 required
               >
                 <option value="" disabled>Select a department</option>
@@ -114,7 +114,7 @@
               <textarea
                 v-model="form.message"
                 placeholder="Your message"
-                class="form-control !mb-3 col-span-2"
+                class="form-control customize-text-area !mb-3 col-span-2"
                 style="height: 150px"
                 required
               ></textarea>
@@ -202,11 +202,7 @@ export default {
   background-color: #3a4557;
   color: #c2c6cc !important;
 }
-#contact {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-}
+
 @media screen and (min-width: 800px) {
   /* #foot {
     padding: 0px 100px;
