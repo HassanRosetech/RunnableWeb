@@ -22992,6 +22992,7 @@ textarea.form-control.is-invalid {
   font-size: 0.7rem;
   white-space: nowrap;
   color: #3f78e0;
+  text-align: center;
 }
 
 .navbar-brand:focus,
