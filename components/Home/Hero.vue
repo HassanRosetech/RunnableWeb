@@ -26,23 +26,22 @@
             class="xl:!text-[2.7rem] !text-[calc(1.395rem_+_1.74vw)] !leading-[1.15] !mb-5 md:mx-[-1.25rem] lg:mx-0 !mt-7"
           >
             Who We Are
-            <br />
-            <br class="xl:!hidden lg:!hidden md:!hidden" />Specialized in
-            <br />
+          </h1>
+          <p>RunnableWeb is a digital software agency specializing in</p>
+          <h1>
             <br class="xl:!hidden lg:!hidden md:!hidden" /><span
               class="rotator-fade !text-[#5eb9f0]"
             >
               {{ currentText }}
             </span>
           </h1>
+
           <p class="lead !text-[1.1rem] !leading-[1.55] font-medium !mb-7">
             <!-- We are an award winning design agency that strongly believes in the
             power of creative ideas. -->
 
-            RunnableWeb is a digital software agency specializing in
-            cross-platform mobile and web development. We combine proven
-            technologies with modern development workflows to deliver scalable,
-            high-quality solutions—fast. <br />
+            We combine proven technologies with modern development workflows to
+            deliver scalable, high-quality solutions—fast. <br />
             We don't just build apps. We<strong> partner with you </strong> to
             design and deliver impactful software products that evolve with your
             business.
