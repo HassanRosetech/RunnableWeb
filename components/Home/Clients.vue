@@ -8,8 +8,8 @@
     >
       <img
         class="md:!px-[0.75rem] lg:!px-0 xl:!px-[0.5rem] xxl:!px-[1.25rem]"
-        src="~/assets/img/brands/c1.png"
-        alt="image"
+        src="~/assets/img/brands/Group-224@2x.webp"
+        alt="Towersemi"
       />
     </div>
     <!--/column -->
@@ -18,8 +18,8 @@
     >
       <img
         class="md:!px-[0.75rem] lg:!px-0 xl:!px-[0.5rem] xxl:!px-[1.25rem]"
-        src="~/assets/img/brands/c2.png"
-        alt="image"
+        src="~/assets/img/brands/__next_static_media_nidan_logo.e3dfd4c4.jpg"
+        alt="Nidan"
       />
     </div>
     <!--/column -->
@@ -28,12 +28,12 @@
     >
       <img
         class="md:!px-[0.75rem] lg:!px-0 xl:!px-[0.5rem] xxl:!px-[1.25rem]"
-        src="~/assets/img/brands/c3.png"
-        alt="image"
+        src="~/assets/img/brands/DELIVERY.png"
+        alt="JOrder"
       />
     </div>
     <!--/column -->
-    <div
+    <!-- <div
       class="w-1/4 xl:w-[14.2857142857%] lg:w-[14.2857142857%] md:w-1/4 flex-[0_0_auto] !px-[15px] !mt-[50px] max-w-full"
     >
       <img
@@ -41,9 +41,9 @@
         src="~/assets/img/brands/c4.png"
         alt="image"
       />
-    </div>
+    </div> -->
     <!--/column -->
-    <div
+    <!-- <div
       class="w-1/4 xl:w-[14.2857142857%] lg:w-[14.2857142857%] md:w-1/4 flex-[0_0_auto] !px-[15px] !mt-[50px] max-w-full"
     >
       <img
@@ -51,9 +51,9 @@
         src="~/assets/img/brands/c5.png"
         alt="image"
       />
-    </div>
+    </div> -->
     <!--/column -->
-    <div
+    <!-- <div
       class="w-1/4 xl:w-[14.2857142857%] lg:w-[14.2857142857%] md:w-1/4 flex-[0_0_auto] !px-[15px] !mt-[50px] max-w-full"
     >
       <img
@@ -61,9 +61,9 @@
         src="~/assets/img/brands/c6.png"
         alt="image"
       />
-    </div>
+    </div> -->
     <!--/column -->
-    <div
+    <!-- <div
       class="w-1/4 xl:w-[14.2857142857%] lg:w-[14.2857142857%] md:w-1/4 flex-[0_0_auto] !px-[15px] !mt-[50px] max-w-full"
     >
       <img
@@ -71,8 +71,7 @@
         src="~/assets/img/brands/c7.png"
         alt="image"
       />
-    </div>
-    <!--/column -->
+    </div> -->
   </div>
 
   <div class="overflow-hidden">

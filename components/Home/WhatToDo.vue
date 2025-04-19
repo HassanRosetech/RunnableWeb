@@ -10,13 +10,34 @@
           <h2
             class="!text-[0.8rem] uppercase !text-[#5eb9f0] !mb-3 !leading-[1.35] !tracking-[0.02rem]"
           >
-            What We Do?
+            What We Do? (services)
           </h2>
-          <h3
+          <p
             class="xl:!text-[2.1rem] !text-[calc(1.335rem_+_1.02vw)] !leading-[1.2] !mb-10 xxl:!px-10"
           >
-            The service we offer is specifically designed to meet your needs.
-          </h3>
+            <h6>We offer end-to-end <strong>software consultancy</strong> and
+            development services tailored to startups, enterprises, and
+            everything in between. Our expertise includes:</h6><br />
+            <ul>
+              <li>
+                Custom app development (mobile & web) Technical consulting &
+                project
+              </li>
+              <li>Technical consulting & project planning</li>
+              <li>Team augmentation and outsourcing</li>
+              <li>Cloud infrastructure & integrations</li>
+              <li>AI/ML integration for smart, data-driven solutions</li>
+            </ul>
+            <p class="harness">
+              We harness the power of
+              <strong>AI-assisted coding and modern workflows</strong> to
+              accelerate delivery, enhance quality, and reduce technical debt.
+            </p>
+            <p >
+              <h3>Tech Stack</h3>
+              We work with modern, scalable, and future-proof technologies:
+            </p>
+          </p>
         </div>
         <!-- /column -->
       </div>
@@ -31,17 +52,19 @@
             <figure class="!mb-6">
               <img
                 class="max-w-full h-auto"
-                src="~/assets/img/illustrations/i24.png"
-                srcset="~/assets/img/illustrations/i24@2x.png 2x"
+                src="~/assets/img/illustrations/i19.png"
+                srcset="~/assets/img/illustrations/i19@2x.png 2x"
                 alt="image"
               />
             </figure>
-            <h3>Web Design</h3>
+            <h3>Frontend & Mobile</h3>
             <p class="!mb-2">
-              Nulla vitae elit libero, a pharetra augue. Donec id elit non mi
-              porta gravida at eget. Fusce dapibus tellus.
+              React · Angular · React Native · Flutter.
+              <br>
+              &nbsp;
             </p>
-            <a href="#" class="more hover">Learn More</a>
+            <NuxtLink class="more hover" to="#">Learn More</NuxtLink>
+            
           </div>
           <!--/.px -->
         </div>
@@ -58,12 +81,11 @@
                 alt="image"
               />
             </figure>
-            <h3>Graphic Design</h3>
+            <h3>Backend & Cloud</h3>
             <p class="!mb-2">
-              Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel
-              augue laoreet. Sed posuere consectetur.
+              Firebase · Supabase · Cloud Services · Custom Backends.
             </p>
-            <a href="#" class="more hover">Learn More</a>
+            <NuxtLink class="more hover" to="#">Learn More</NuxtLink>
           </div>
           <!--/.px -->
         </div>
@@ -75,20 +97,65 @@
             <figure class="!mb-6">
               <img
                 class="max-w-full h-auto"
-                src="~/assets/img/illustrations/i18.png"
-                srcset="~/assets/img/illustrations/i18@2x.png 2x"
+                src="~/assets/img/illustrations/i19.png"
+                srcset="~/assets/img/illustrations/i19@2x.png 2x"
                 alt="image"
               />
             </figure>
-            <h3>3D Animation</h3>
+            <h3>Content & CMS</h3>
             <p class="!mb-2">
-              Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-              Praesent commodo cursus magna scelerisque.
+              Modern Headless CMS (Strapi, Sanity, Contentful, etc.)
             </p>
-            <a href="#" class="more hover">Learn More</a>
+            <NuxtLink class="more hover" to="#">Learn More</NuxtLink>
           </div>
           <!--/.px -->
         </div>
+
+
+        
+
+         <div
+          class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[60px]"
+        >
+          <div class="md:!px-20 lg:!px-3 xl:!px-3">
+            <figure class="!mb-6">
+              <img
+                class="max-w-full h-auto"
+                src="~/assets/img/illustrations/i19.png"
+                srcset="~/assets/img/illustrations/i19@2x.png 2x"
+                alt="image"
+              />
+            </figure>
+            <h3>Emerging Technologies</h3>
+            <p class="!mb-2">
+              AI & Machine Learning · Workflow Automation · Realtime Systems · GraphQL APIs.        <br> &nbsp;    </p>
+              <NuxtLink class="more hover" to="#">Learn More</NuxtLink>
+          </div>
+          <!--/.px -->
+        </div>
+
+
+        <div
+          class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[60px]"
+        >
+          <div class="md:!px-20 lg:!px-3 xl:!px-3">
+            <figure class="!mb-6">
+              <img
+                class="max-w-full h-auto"
+                src="~/assets/img/illustrations/i19.png"
+                srcset="~/assets/img/illustrations/i19@2x.png 2x"
+                alt="image"
+              />
+            </figure>
+            <h3>Scrappers & Workflow Automation</h3>
+            <p class="!mb-2">
+              Smart tools to automate tasks, gather data, and boost operational efficiency.          </p>
+              <NuxtLink class="more hover" to="#">Learn More</NuxtLink>
+          </div>
+          <!--/.px -->
+        </div>
+
+        
         <!--/column -->
       </div>
       <!--/.row -->
@@ -96,3 +163,12 @@
     <!-- /.container -->
   </section>
 </template>
+<style scoped>
+ul {
+  list-style-type: disc;
+  text-align: left;
+}
+.harness{
+  text-align: left;
+}
+</style>
